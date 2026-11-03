@@ -27,7 +27,7 @@ También contemplamos **administraciones públicas, ayuntamientos y equipos inst
 
 ## Colecciones disponibles
 
-**132 skills en 22 colecciones sectoriales.** Consulta el [catálogo completo](CATALOGO.md), con el empleado, las entradas y la entrega de cada habilidad.
+**132 skills en 22 colecciones sectoriales.** Consulta el [catálogo completo](CATALOGO.md), con el empleado, las entradas y la entrega de cada habilidad. También puedes [descargar el paquete inicial v0.1.0](https://github.com/Iabot-io/.github/releases/tag/v0.1.0).
 
 | Colección | Trabajos incluidos |
 | --- | --- |
