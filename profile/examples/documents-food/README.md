@@ -11,6 +11,8 @@ Este ejemplo usa datos ficticios para mostrar cómo se aplica una skill y cómo 
 - [Resultado: food-balances.csv](food-balances.csv)
 - [Resultado: food-registro.csv](food-registro.csv)
 - [Resultado: food-traceability-review.txt](food-traceability-review.txt)
+- [Resultado: memoria-demostrativa.odt](memoria-demostrativa.odt)
+- [Resultado: memoria-demostrativa.pdf](memoria-demostrativa.pdf)
 
 ## Probarlo en IAbot.io
 

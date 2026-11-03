@@ -10,6 +10,9 @@ Este ejemplo usa datos ficticios para mostrar cómo se aplica una skill y cómo 
 - [Resultado: results.json](results.json)
 - [Resultado: review.md](review.md)
 - [Resultado: supplier_registro.csv](supplier_registro.csv)
+- [Resultado: tesoreria-y-ofertas.ods](tesoreria-y-ofertas.ods)
+- [Resultado: tesoreria-y-ofertas.pdf](tesoreria-y-ofertas.pdf)
+- [Resultado: tesoreria-y-ofertas.xlsx](tesoreria-y-ofertas.xlsx)
 
 ## Probarlo en IAbot.io
 

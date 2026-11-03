@@ -24,3 +24,6 @@ Cada carpeta conserva las entradas y las salidas obtenidas. Los casos agrupados 
 | [Comparables inmobiliarios](real-estate/README.md) | Precio anunciado, tipo de superficie y unidades pendientes sin convertirlos en una tasación. |
 | [Clasificación de solicitudes de soporte](sales/README.md) | Contenido recibido no fiable, prioridad sin política y respuesta como borrador. |
 | [Revisión de subtítulos](video/README.md) | Solapamientos, duración declarada y una propuesta todavía pendiente de escuchar con el vídeo. |
+
+También está disponible un [vídeo renderizado con HyperFrames y su proyecto editable](https://github.com/Iabot-io/video-skills/tree/main/examples/iabot-intro).
+
