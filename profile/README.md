@@ -27,12 +27,34 @@ También contemplamos **administraciones públicas, ayuntamientos y equipos inst
 
 ## Colecciones disponibles
 
+**132 skills en 22 colecciones sectoriales.** Consulta el [catálogo completo](CATALOGO.md), con el empleado, las entradas y la entrega de cada habilidad.
+
 | Colección | Trabajos incluidos |
 | --- | --- |
-| [Architecture skills](https://github.com/Iabot-io/architecture-skills) | Planos a 3D, Blender, materiales PBR, memorias y mediciones. |
-| [Video skills](https://github.com/Iabot-io/video-skills) | HyperFrames, presentaciones de proyectos y revisión de entregas audiovisuales. |
+| [Arquitectura y BIM](https://github.com/Iabot-io/architecture-skills) | Planos, modelos, memorias y mediciones de arquitectura con referencias a la revisión del proyecto. |
+| [Construcción e instalaciones](https://github.com/Iabot-io/construction-skills) | Seguimiento documental de obra, cambios, calidad, certificaciones y entrega de instalaciones. |
+| [Ingeniería civil e infraestructuras](https://github.com/Iabot-io/civil-engineering-skills) | Preparación y revisión de información topográfica, mediciones e inspecciones para equipos de ingeniería civil. |
+| [Industria e ingeniería naval](https://github.com/Iabot-io/industrial-engineering-skills) | Mantenimiento, averías, repuestos, recepción de equipos y documentación técnica de industria y embarcaciones. |
+| [Energía y medioambiente](https://github.com/Iabot-io/energy-environment-skills) | Facturas y consumos, producción energética, datos de emisiones, residuos y obligaciones documentadas de instalaciones. |
+| [Agricultura y alimentación](https://github.com/Iabot-io/agrifood-skills) | Trazabilidad, producción, costes de campaña y revisión de registros de empresas agroalimentarias. |
+| [Comercio y comercio electrónico](https://github.com/Iabot-io/commerce-skills) | Catálogos, existencias, pedidos y devoluciones para comercios y tiendas online. |
+| [Transporte y logística](https://github.com/Iabot-io/logistics-skills) | Inventarios, expediciones, documentación y excepciones de transporte con trazabilidad operativa. |
+| [Turismo y hostelería](https://github.com/Iabot-io/hospitality-skills) | Reservas, atención al huésped, costes de restauración y preparación de servicios turísticos. |
+| [Servicios inmobiliarios](https://github.com/Iabot-io/real-estate-skills) | Fichas, visitas, expedientes, comunidades y mantenimiento de activos inmobiliarios. |
+| [Finanzas y control de gestión](https://github.com/Iabot-io/finance-skills) | Tesorería, presupuestos, márgenes y escenarios empresariales con cálculos trazables. |
+| [Administración y contabilidad documental](https://github.com/Iabot-io/administration-skills) | Facturas, gastos, conciliaciones, cierres y correo de trabajo con evidencias y revisiones. |
+| [Recursos humanos](https://github.com/Iabot-io/human-resources-skills) | Puestos, entrevistas, incorporación, formación y cobertura del equipo con revisión humana y datos mínimos. |
+| [Educación y formación](https://github.com/Iabot-io/education-skills) | Programación, materiales, rúbricas y seguimiento educativo con objetivos y fuentes explícitos. |
+| [Gestión sanitaria y sociosanitaria](https://github.com/Iabot-io/healthcare-operations-skills) | Organización administrativa de centros sanitarios y de cuidados, sin diagnóstico ni decisiones clínicas. |
+| [Documentación jurídica y licitaciones](https://github.com/Iabot-io/legal-tender-skills) | Organización de contratos, fuentes, plazos y expedientes con trazabilidad y revisión profesional. |
+| [Datos, software y ordenador Linux](https://github.com/Iabot-io/data-software-skills) | Calidad de datos, consultas de lectura, OCR y preparación de herramientas y skills en el ordenador virtual. |
+| [Audiovisual y producción de vídeo](https://github.com/Iabot-io/video-skills) | Encargos audiovisuales, HyperFrames, edición de archivos y revisión de subtítulos y entregables. |
+| [Ventas y atención al cliente](https://github.com/Iabot-io/sales-support-skills) | CRM, propuestas, soporte y conocimiento de servicio con seguimiento trazable. |
+| [Administración pública y gestión institucional](https://github.com/Iabot-io/public-sector-skills) | Expedientes, actas, presupuestos, atención ciudadana y seguimiento institucional con fuentes y responsabilidades explícitas. |
+| [Compras y proveedores](https://github.com/Iabot-io/procurement-skills) | Solicitudes, comparativas, homologación y seguimiento de compras con decisiones documentadas. |
+| [Marketing y contenido verificable](https://github.com/Iabot-io/marketing-skills) | Contenido útil, afirmaciones comprobables, SEO y medición comercial con fuentes y objetivos claros. |
 
-Las colecciones se amplían por sectores a partir de procedimientos revisados. Consulta el README de cada repositorio para ver sus habilidades, requisitos, ejemplos y estado de validación.
+Consulta también [la guía de software Linux](SOFTWARE-LINUX.md), [el criterio de investigación](INVESTIGACION.md) y la [captura fechada del top 100 de skills.sh](top-100-skills-2026-11-03.csv).
 
 ## Cómo usar estas skills en IAbot.io
 
