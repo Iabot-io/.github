@@ -37,6 +37,13 @@ pertenecen a su propio entorno.
 Las especialidades se amplían a partir de trabajos comprobados. Puedes proponer
 mejoras o aportar casos reproducibles en los repositorios de cada colección.
 
+## Empresa
+
+**Iluzona Innova SL · CIF B75648386**  
+Las Palmas de Gran Canaria, España · [team@iabot.io](mailto:team@iabot.io)
+
+Datos publicados en el [aviso legal de iabot.io](https://iabot.io/legal/aviso-legal/).
+
 ---
 
 **Open skills for AI agents.** Practical architecture, Blender and video workflows,
