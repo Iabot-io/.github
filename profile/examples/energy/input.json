@@ -1,0 +1,43 @@
+{
+  "skill": "energy-environment-skills/skills/energy-invoice-normalization/SKILL.md",
+  "request": "Normaliza las facturas y concilia consumos sin duplicar documentos rectificados ni mezclar potencia con energia.",
+  "input": {
+    "fictional": true,
+    "bills": [
+      {
+        "id": "F1",
+        "supply": "A",
+        "period": "2026-10",
+        "energy": 100,
+        "unit": "kWh",
+        "energy_cost": 20,
+        "other_cost": 5,
+        "tax": 2.5,
+        "total": 27.5
+      },
+      {
+        "id": "F2",
+        "supply": "A",
+        "period": "2026-10",
+        "replaces": "F1",
+        "energy": 120,
+        "unit": "kWh",
+        "energy_cost": 24,
+        "other_cost": 5,
+        "tax": 2.9,
+        "total": 31.9
+      },
+      {
+        "id": "F3",
+        "supply": "B",
+        "period": "2026-10",
+        "energy": 70,
+        "unit": "kW",
+        "energy_cost": 14,
+        "other_cost": 3,
+        "tax": 1.7,
+        "total": 18.7
+      }
+    ]
+  }
+}

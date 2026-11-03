@@ -1,0 +1,35 @@
+{
+  "skill": "commerce-skills/skills/retail-stock-replenishment/SKILL.md",
+  "request": "Prepara una propuesta de reposicion para cubrir demanda durante el plazo. No incorpores recepciones posteriores al horizonte.",
+  "input": {
+    "fictional": true,
+    "as_of": "2026-11-01",
+    "policy": "cover observed demand for lead time; safety stock 0; round order to multiple",
+    "items": [
+      {
+        "id": "X",
+        "physical_stock": 10,
+        "reserved": 3,
+        "daily_demand": 2,
+        "lead_days": 5,
+        "order_multiple": 6,
+        "confirmed_receipts": [
+          {
+            "date": "2026-11-08",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "id": "Y",
+        "physical_stock": 0,
+        "reserved": 0,
+        "observed_sales": 0,
+        "stockout_all_period": true,
+        "daily_demand": null,
+        "lead_days": 5,
+        "order_multiple": 1
+      }
+    ]
+  }
+}

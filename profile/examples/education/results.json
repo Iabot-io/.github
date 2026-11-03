@@ -1,0 +1,59 @@
+{
+  "case": "education",
+  "provenance": {
+    "input_path": "input.json",
+    "input_sha256": "e450c489571da6d1cbee196aabcb83d55b2df2fd0e7ababcd3e352e60494bfcc",
+    "skill_path": "https://github.com/Iabot-io/education-skills/blob/main/skills/assessment-rubric-design/SKILL.md",
+    "skill_version": "0.1.0",
+    "skill_sha256": "3c065a1019c827bc64023f23380e9efd49b764e1576b1dbb229259d32e929557",
+    "template_path": "https://github.com/Iabot-io/education-skills/blob/main/skills/assessment-rubric-design/assets/registro.csv",
+    "template_sha256": "4456b9afd8e6653768b7e1a9d9c2f8452eb11f4a26b43376d1dc3a7ec1d1eb32",
+    "review_date": "2026-11-03",
+    "fictional": true
+  },
+  "status": "draft_with_conflicting_weights",
+  "task": "explicar un procedimiento de reciclaje a partir del texto aportado",
+  "criteria_count": 3,
+  "descriptor_count": 9,
+  "proposed_weights": [
+    {
+      "criterion": "identificar etapas",
+      "weight": 50
+    },
+    {
+      "criterion": "justificar el orden",
+      "weight": 30
+    },
+    {
+      "criterion": "explicar un ejemplo",
+      "weight": 30
+    }
+  ],
+  "proposed_weight_sum": 110,
+  "required_total": 100,
+  "weight_total_difference": 10,
+  "approved_weights": null,
+  "normalized_weights": null,
+  "weights_applied": false,
+  "proposed_ordinal_levels": [
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scale_approved": null,
+  "source_text_provided": false,
+  "student_example_provided": false,
+  "calibration_performed": false,
+  "calibration_result": null,
+  "final_grade": null,
+  "unresolved": [
+    "Decision docente sobre pesos 50/30/30 que suman 110 frente a 100",
+    "Texto fuente y respuestas esperadas",
+    "Escala acordada y tratamiento de evidencia insuficiente",
+    "Ejemplo anonimizado y ensayo de limites entre niveles"
+  ],
+  "instruction_or_template_gaps": [
+    "La columna ponderacion no distingue propuesta de aprobada ni incluye control de suma; se dejo vacia y se adjunto conciliacion.",
+    "La skill exige ensayo con ejemplo, pero no explicita la salida cuando faltan texto y muestra; se dejo el ensayo pendiente sin inventarlo."
+  ]
+}

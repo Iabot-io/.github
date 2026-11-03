@@ -1,0 +1,196 @@
+Memoria descriptiva
+Oficina demostrativa
+Caso ficticio · Borrador para revisión · Fecha de esta memoria: 03/11/2026 · Revisión local FT-01
+
+
+  Jurisdicción y dirección pendientes. Fase: borrador de memoria descriptiva. Destinatario,
+  promotor y técnico responsable: no identificados en la evidencia. Documento de trabajo sin
+  firma; no acredita cumplimiento normativo.
+
+
+
+ 1. Identificación y objeto
+
+Se redacta una memoria descriptiva de la «Oficina demostrativa» a partir de los extractos de
+proyecto facilitados en S1. La actuación confirmada es la renovación de pavimento interior. No se
+dispone de emplazamiento, datos administrativos ni identidad del promotor o técnico. El uso se
+identifica como oficina por la denominación y los ámbitos del cuadro de superficies; su
+clasificación normativa queda pendiente.
+
+La distribución de nuevos despachos figura como decisión pendiente y no forma parte de una
+solución aprobada en este borrador. Tampoco se deduce que la superficie completa de la oficina
+sea la superficie de pavimento a renovar.
+
+
+ 2. Antecedentes y estado actual
+
+Se aportan extractos de P-01, «cuadro de superficies», revisión 3 de 28/10/2026, y M-01,
+«memoria anterior», revisión 2 de 20/10/2026. Los originales, su aprobación y la relación con
+planos no se han suministrado. Las revisiones pertenecen a documentos distintos y no
+constituyen una secuencia de aprobación común.
+
+No hay levantamiento, visita, fotografías ni descripción verificada del estado previo. Por tanto, no
+se afirman materiales existentes, patologías, condiciones del soporte ni características de
+instalaciones o estructura. El cuadro tampoco indica si sus áreas describen el estado existente o
+el propuesto.
+
+
+ 3. Programa y solución propuesta
+
+P-01 identifica los ámbitos oficina, reunión y servicios. La renovación del pavimento interior es el
+único trabajo confirmado. Faltan su localización precisa y definición técnica. El número,
+dimensiones y distribución de los nuevos despachos siguen pendientes; no se inventan ni se
+incorporan al cuadro como espacios proyectados.
+
+Referencia documental general: S1, input.json del caso ficticio. Las referencias y revisiones completas figuran en
+el apartado 7 y en architectural-evidence.csv.
+  4. Superficies
+
+Se usa P-01 como referencia provisional por ser el cuadro de superficies más reciente
+suministrado. Su vigencia debe confirmarse. Se mantienen los enteros y unidades aportados, sin
+decimales añadidos. P-01 es un cuadro; no se presenta como plano geométrico comprobado.
+
+                              Tipo de                            Documento y         Criterio de
+            Ámbito                            Valor    Unidad
+                             superficie                            revisión           medición
+Oficina                   Útil              60         m²       P-01, rev. 3       No aportado
+Reunión                   Útil              20         m²       P-01, rev. 3       No aportado
+Servicios                 Útil              10         m²       P-01, rev. 3       No aportado
+Suma de los ámbitos       Útil; subtotal
+                                            90         m²       P-01, rev. 3       60 + 20 + 10
+anteriores                calculado
+Ámbito global no
+                          Construida        110        m²       P-01, rev. 3       No aportado
+delimitado
+Ámbito de memoria
+                          Útil              95         m²       M-01, rev. 2       No aportado
+anterior no delimitado
+Ámbito no definido        Computable        Pendiente m²        Sin fuente         No aportado
+
+
+  Discrepancia abierta AR-04: P-01 suma 90 m² útiles; M-01 declara 95 m² útiles. Diferencia:
+  95 − 90 = 5 m². La causa y la coincidencia de ámbitos no constan. No se promedian, suman
+  ni se corrige de forma silenciosa ninguna fuente. El técnico debe contrastar ámbitos, criterios
+  y geometría antes de cerrar la cifra.
+
+
+Los 110 m² construidos son de naturaleza distinta y no se suman a los 90 m² útiles. La diferencia
+numérica de 20 m² no se atribuye a muros, zonas comunes u otro concepto sin evidencia. La
+superficie computable y la superficie de pavimento efectivamente intervenida quedan
+pendientes.
+
+
+  5. Descripción constructiva
+
+Actuación confirmada: renovación de pavimento interior. No se aporta elección ni acreditación de
+material, espesor, acabado, preparación del soporte, encuentros o prestaciones. Tampoco se
+conoce el sistema existente. Estas definiciones requieren documentación coordinada del
+proyecto y revisión técnica; no se presentan como seleccionadas ni justificadas.
+  6. Requisitos aplicables y justificación
+
+No se suministra jurisdicción ni evidencia técnica de cumplimiento. La lista de evidencias es
+vacía. No se ha consultado legislación externa por la restricción de usar solo el input. No se
+incorpora normativa de otro proyecto ni se declara no aplicabilidad por falta de datos.
+
+                   Fuente oficial y                                Evidencia del
+   Requisito                               Aplicabilidad                                  Estado
+                      versión                                        proyecto
+Por determinar     Pendiente; sin      Pendiente de           No se aportan cálculos,
+                                                                                      Pendiente AR-
+según lugar, uso y norma o versión     jurisdicción y         planos justificativos o
+                                                                                      01 y AR-09
+fase               inventada           definición técnica     ensayos
+
+El técnico responsable deberá identificar las fuentes oficiales vigentes y sus requisitos concretos,
+registrar norma, versión y fecha, y aportar las justificaciones que correspondan. Un listado de
+normas o esta memoria no sustituyen esos documentos ni la firma profesional.
+
+
+  7. Anexos y documentos coordinados
+     Identidad          Revisión y fecha         Ubicación en S1           Estado de la fuente
+P-01 · cuadro de                              /architectural_project/   Extracto; original y
+                      3 · 2026-10-28
+superficies                                   documents/0               aprobación no aportados
+M-01 · memoria                                /architectural_project/
+                      2 · 2026-10-20                                    Extracto; diferencia abierta
+anterior                                      documents/1
+Datos del encargo y   S1 · sin fecha                                    Solo datos estructurados
+                                              /architectural_project
+actuaciones           documental propia                                 suministrados
+
+Se adjuntan architectural-evidence.csv, matriz de 11 datos con fuente, revisión, ubicación y
+límite, y architectural-pending.csv, lista de 10 pendientes. No se afirma haber adjuntado
+planos, mediciones, cálculos o los originales P-01 y M-01.
+
+S1: input.json.
+Revisión SHA-256: 20f93d2916c9b97b671e7e239751ca4a0242b19b8eedb2c9ebd28004057f6d96. La fecha de
+esta memoria no es fecha de validación ni aprobación de los documentos fuente.
+ 8. Pendientes para revisión
+
+Los pendientes permanecen abiertos; los responsables se indican por función o fuente necesaria,
+sin atribuir el encargo a una persona no identificada.
+
+                                                                          Responsable o fuente
+  ID         Dato o decisión          Efecto sobre la memoria
+                                                                               necesaria
+                                   Impide delimitar los requisitos     Información de proyecto;
+         Jurisdicción y dirección;
+AR-01                              aplicables y vincular el            promotor y técnico por
+         emplazamiento concreto
+                                   documento a un inmueble             identificar
+         Promotor, destinatario y   Falta identificación del encargo   Encargo y designaciones no
+AR-02
+         técnico responsable        y de la revisión o firma           aportados
+                                  La fecha posterior no demuestra
+         Vigencia y aprobación de                                 Control documental y
+AR-03                             por sí sola revisión aprobada;
+         P-01 y M-01                                              originales de P-01 y M-01
+                                  uso provisional de P-01
+                                                                   Técnico: revisar ámbitos y
+                                   No se puede presentar una cifra
+         Diferencia de 5 m² útiles                                 criterios, contrastar
+AR-04                              conciliada ni atribuir la
+         entre P-01 y M-01                                         geometría y corregir la fuente
+                                   diferencia a una causa
+                                                                   que proceda
+                                  No se conoce si las áreas
+         Ámbito, método de
+                                  corresponden al estado         Planos y criterio de medición
+AR-05    medición y estado de las
+                                  existente o propuesto; tampoco del proyecto
+         áreas
+                                  hay superficie computable
+                                    No hay levantamiento,
+                                                                    Levantamiento y
+                                    inspección o descripción
+AR-06    Estado previo verificado                                   documentación del estado
+                                    contrastada del pavimento y sus
+                                                                    actual
+                                    soportes
+                                  No se identifican estancias,
+         Alcance de la renovación superficie intervenida,              Decisiones y documentación
+AR-07
+         del pavimento            materiales, espesores, soporte,      técnica de la intervención
+                                  encuentros ni prestaciones
+                                    Actuación pendiente; no se
+         Distribución de nuevos                                        Decisión del proyecto y plano
+AR-08                               incorpora como solución
+         despachos                                                     coordinado posterior
+                                    decidida ni ejecutada
+                                    Sin jurisdicción y evidencia no    Técnico responsable: fuentes
+         Normas aplicables y
+AR-09                               se justifica cumplimiento ni se    oficiales, versiones, requisitos
+         justificaciones técnicas
+                                    declara no aplicabilidad           y planos/cálculos/ensayos
+                                    Solo hay extractos
+         Planos, mediciones y
+                                    estructurados; no se han           Entrega y revisión
+AR-10    anexos originales
+                                    contrastado los archivos de        documental de los originales
+         coordinados
+                                    proyecto
+
+Estado de entrega: borrador editable y copia de lectura, con fuentes y discrepancias visibles.
+Antes de usarlo en una tramitación o como documento técnico final deben resolverse los
+pendientes que afecten al uso previsto y revisarse por el técnico responsable.
+

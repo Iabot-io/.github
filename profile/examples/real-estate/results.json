@@ -1,0 +1,87 @@
+{
+  "case": "real-estate",
+  "provenance": {
+    "input_path": "input.json",
+    "input_sha256": "e90a9cdb6bb2aa4cea8a825c58eff3637f19a4cff9751f1d554d18865d3b633f",
+    "skill_path": "https://github.com/Iabot-io/real-estate-skills/blob/main/skills/property-comparables-matrix/SKILL.md",
+    "skill_version": "0.1.0",
+    "skill_sha256": "ed826df2d8ba14d96bc19e5a5dae46788639240be619faa00462b0fc1c41284d",
+    "template_path": "https://github.com/Iabot-io/real-estate-skills/blob/main/skills/property-comparables-matrix/assets/registro.csv",
+    "template_sha256": "8d9ead59a4b5a0894d99b8e99cf0c538798679524119ae8e5e3c5ab6f70ca89b",
+    "review_date": "2026-11-03",
+    "fictional": true
+  },
+  "status": "descriptive_comparison_only",
+  "context_date": "2026-11-01",
+  "target_property": null,
+  "properties": [
+    {
+      "id": "A",
+      "asking_price": 100000,
+      "currency": "EUR",
+      "area": 100,
+      "area_type": "useful",
+      "source": "listing-A",
+      "price_divided_by_numeric_area": 1000.0,
+      "area_unit": null,
+      "price_eur_per_square_metre": null
+    },
+    {
+      "id": "B",
+      "asking_price": 120000,
+      "currency": "EUR",
+      "area": 120,
+      "area_type": "built",
+      "source": "listing-B",
+      "price_divided_by_numeric_area": 1000.0,
+      "area_unit": null,
+      "price_eur_per_square_metre": null
+    },
+    {
+      "id": "C",
+      "asking_price": 96000,
+      "currency": "EUR",
+      "area": 80,
+      "area_type": "useful",
+      "source": "listing-C",
+      "price_divided_by_numeric_area": 1200.0,
+      "area_unit": null,
+      "price_eur_per_square_metre": null
+    }
+  ],
+  "observed_asking_price_range": {
+    "min": 96000,
+    "max": 120000,
+    "currency": "EUR",
+    "price_type": "asking"
+  },
+  "same_area_type_groups": {
+    "useful": [
+      "A",
+      "C"
+    ],
+    "built": [
+      "B"
+    ]
+  },
+  "shared_area_unit_verified": null,
+  "useful_numeric_ratio_range": {
+    "min": 1000,
+    "max": 1200,
+    "unit": null,
+    "interpretation_requires_shared_unit": true
+  },
+  "pooled_unit_price_indicator": null,
+  "appraisal_value": null,
+  "purchase_recommendation": null,
+  "unresolved": [
+    "Unidad y base de medicion de superficies",
+    "Inmueble objetivo y criterios de comparabilidad",
+    "Ubicacion, estado y otras caracteristicas",
+    "Actualizacion y revision de cada anuncio"
+  ],
+  "instruction_or_template_gaps": [
+    "La plantilla no tiene moneda ni unidad de superficie, necesarias antes de afirmar un precio por metro cuadrado.",
+    "La plantilla tiene una sola fecha sin distinguir fecha de la comparativa y fecha/revision del anuncio."
+  ]
+}

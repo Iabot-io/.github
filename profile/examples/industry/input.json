@@ -1,0 +1,31 @@
+{
+  "skill": "industrial-engineering-skills/skills/spare-parts-criticality/SKILL.md",
+  "request": "Prepara cobertura y revision de reposicion con las unidades y politica aportadas, sin emitir pedidos.",
+  "input": {
+    "fictional": true,
+    "period_days": 30,
+    "items": [
+      {
+        "id": "A",
+        "stock": 2,
+        "stock_unit": "box",
+        "pieces_per_box": 10,
+        "reserved_pieces": 5,
+        "consumption_pieces_per_period": 20,
+        "lead_days": 15,
+        "target_days": 30,
+        "minimum_order_pieces": 10
+      },
+      {
+        "id": "B",
+        "stock": 3,
+        "stock_unit": "piece",
+        "reserved_pieces": 0,
+        "consumption_pieces_per_period": null,
+        "lead_days": null,
+        "target_days": 30,
+        "minimum_order_pieces": 1
+      }
+    ]
+  }
+}

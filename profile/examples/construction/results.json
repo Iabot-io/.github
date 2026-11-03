@@ -1,0 +1,25 @@
+{
+  "currency": "EUR",
+  "period": "2026-10",
+  "proposal_status": "unsigned provisional proposal for review",
+  "provisional_subtotal_excluding_unauthorized_correction": "150.00",
+  "pending_p2_correction": "-16.00",
+  "arithmetic_total_only_if_both_quantities_validated": "134.00",
+  "previous_cumulative_arithmetic_amount": "396.00",
+  "current_cumulative_arithmetic_amount": "530.00",
+  "taxes": null,
+  "retentions": null,
+  "advances": null,
+  "final_payable": null,
+  "verified": [
+    "quantity rollforward per line",
+    "cumulative valuation rollforward",
+    "unauthorized correction excluded from proposed subtotal"
+  ],
+  "unresolved_items": [
+    "P2: autorización y causa de la disminución de acumulado",
+    "identidad de contrato y revisión de precios",
+    "mediciones aprobadas y certificación anterior",
+    "regla fiscal, anticipos y retenciones; líquido final no calculable"
+  ]
+}

@@ -1,0 +1,12 @@
+id,dato_o_afirmacion,valor,fuente_y_ubicacion,revision,estado_y_limite
+AE-01,Nombre y fase,Oficina demostrativa; borrador de memoria descriptiva,S1 /architectural_project/name y /phase,Revisión S1: 20f93d2916c9b97b671e7e239751ca4a0242b19b8eedb2c9ebd28004057f6d96,Aportado; no identifica inmueble ni responsable
+AE-02,Jurisdicción y dirección,No aportadas: null,S1 /architectural_project/jurisdiction y /address,Revisión S1: 20f93d2916c9b97b671e7e239751ca4a0242b19b8eedb2c9ebd28004057f6d96,Pendiente AR-01
+AE-03,Oficina; superficie útil,60 m²,P-01: S1 /architectural_project/documents/0/areas_useful_m2/oficina,P-01 rev. 3; 2026-10-28,"No consta ámbito geométrico, estado ni criterio de medición"
+AE-04,Reunión; superficie útil,20 m²,P-01: S1 /architectural_project/documents/0/areas_useful_m2/reunion,P-01 rev. 3; 2026-10-28,Mismas limitaciones de medición
+AE-05,Servicios; superficie útil,10 m²,P-01: S1 /architectural_project/documents/0/areas_useful_m2/servicios,P-01 rev. 3; 2026-10-28,Mismas limitaciones de medición
+AE-06,Subtotal útil calculado,90 m² = 60 + 20 + 10,Cálculo de esta memoria sobre P-01; no es un nuevo documento de proyecto,P-01 rev. 3; 2026-10-28,Cifra provisional; discrepancia con M-01 pendiente
+AE-07,Superficie construida,110 m²,P-01: S1 /architectural_project/documents/0/built_area_m2,P-01 rev. 3; 2026-10-28,Tipo distinto de útil; no se suman
+AE-08,Superficie útil en memoria anterior,95 m²,M-01: S1 /architectural_project/documents/1/stated_useful_area_m2,M-01 rev. 2; 2026-10-20,Diferencia respecto de P-01: +5 m²; causa pendiente
+AE-09,Actuación confirmada,Renovación de pavimento interior,S1 /architectural_project/works_confirmed/0,Revisión S1: 20f93d2916c9b97b671e7e239751ca4a0242b19b8eedb2c9ebd28004057f6d96,Alcance y solución constructiva pendientes
+AE-10,Actuación pendiente,Distribución de nuevos despachos,S1 /architectural_project/works_pending/0,Revisión S1: 20f93d2916c9b97b671e7e239751ca4a0242b19b8eedb2c9ebd28004057f6d96,No se presenta como actuación confirmada
+AE-11,Justificación técnica,Sin evidencia suministrada: lista vacía,S1 /architectural_project/technical_compliance_evidence,Revisión S1: 20f93d2916c9b97b671e7e239751ca4a0242b19b8eedb2c9ebd28004057f6d96,Cumplimiento no evaluado; no hay firma profesional

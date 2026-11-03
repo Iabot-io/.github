@@ -1,0 +1,54 @@
+{
+  "fictional": true,
+  "instruction": "Prepare a deadline register and administrative tender checklist; do not submit anything.",
+  "documents": [
+    {
+      "id": "notice-v1",
+      "published": "2026-10-01",
+      "rules": {
+        "deadline": "15 business days following valid notification",
+        "required_format": "PDF",
+        "required_documents": [
+          "signed declaration",
+          "technical memo"
+        ]
+      }
+    },
+    {
+      "id": "correction-v2",
+      "published": "2026-10-05",
+      "supersedes": [
+        "notice-v1.required_format"
+      ],
+      "rules": {
+        "required_format": "PDF/A",
+        "required_documents_add": [
+          "price schedule"
+        ]
+      }
+    }
+  ],
+  "notification": {
+    "sent_at": "2026-10-07",
+    "opened_at": null,
+    "valid_notification_date": null
+  },
+  "calendar": null,
+  "submitted_material": [
+    {
+      "name": "declaration",
+      "signed": false,
+      "format": "PDF/A"
+    },
+    {
+      "name": "technical memo",
+      "signed": null,
+      "format": "PDF"
+    },
+    {
+      "name": "price schedule",
+      "present": false
+    }
+  ],
+  "jurisdiction": "not specified"
+}

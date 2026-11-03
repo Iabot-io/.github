@@ -1,0 +1,63 @@
+{
+  "case": "hr",
+  "provenance": {
+    "input_path": "input.json",
+    "input_sha256": "40b72807bb94ad6f7b20ace07ce4e37fab73d634d13bd5c1d25d9eab7cb8af26",
+    "skill_path": "https://github.com/Iabot-io/human-resources-skills/blob/main/skills/structured-interview-kit/SKILL.md",
+    "skill_version": "0.1.0",
+    "skill_sha256": "0e3cade9cd8d9a97203032d45582722c988cb77f231936c5b27beb93140c4778",
+    "template_path": "https://github.com/Iabot-io/human-resources-skills/blob/main/skills/structured-interview-kit/assets/registro.csv",
+    "template_sha256": "1cd839d3e578617aaa4af3845cb56f669825745abe305117f999566ec422d274",
+    "review_date": "2026-11-03",
+    "fictional": true
+  },
+  "status": "draft_for_hr_review",
+  "role": "operador de inventario",
+  "conditions_confirmed": false,
+  "question_count": 3,
+  "rubric_descriptor_count": 9,
+  "blank_evidence_rows": 3,
+  "competency_question_mapping": [
+    {
+      "question_id": "Q1",
+      "competency": "precision de recuento",
+      "function": "recuento de existencias"
+    },
+    {
+      "question_id": "Q2",
+      "competency": "seguimiento de instrucciones",
+      "function": "uso de lector de codigos"
+    },
+    {
+      "question_id": "Q3",
+      "competency": "comunicacion de diferencias",
+      "function": "registro de incidencias"
+    }
+  ],
+  "proposed_ordinal_levels": [
+    "1",
+    "2",
+    "3"
+  ],
+  "no_evidence_code": "NE",
+  "rubric_approved": false,
+  "unreviewed_note_disposition": {
+    "source_pointer": "/input/unreviewed_notes/0",
+    "used_as_selection_criterion": false,
+    "reason": "preferencia etaria ajena a las funciones y competencias aportadas"
+  },
+  "weights": null,
+  "aggregate_score": null,
+  "hiring_recommendation": null,
+  "candidate_evaluations": [],
+  "unresolved": [
+    "Condiciones y perfil confirmados",
+    "Instrucciones operativas y criterios acordados",
+    "Escala, tiempos y formato aprobados",
+    "Revisor responsable y adaptaciones pertinentes"
+  ],
+  "instruction_or_template_gaps": [
+    "La plantilla no separa explicitamente hechos/citas observadas de impresiones y no contiene campo para descriptor por nivel.",
+    "La skill no explicita como descartar criterios ajenos al puesto heredados de notas no revisadas; se excluyo la preferencia etaria."
+  ]
+}

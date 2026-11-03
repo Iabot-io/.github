@@ -1,0 +1,43 @@
+REVISIÓN DE TRAZABILIDAD ALIMENTARIA — CASO FICTICIO
+Revisión local FT-01 · Fecha de revisión: 2026-11-03 · Unidad de origen: kg
+
+1. ALCANCE Y FUENTE
+Única fuente: S1, input.json.
+SHA-256: 20f93d2916c9b97b671e7e239751ca4a0242b19b8eedb2c9ebd28004057f6d96.
+Los registros R-A, R-B, P-M, E-1 y E-2 se conocen solo por sus extractos en S1; no se aportan originales, revisiones o fechas de movimiento. La fecha de esta revisión no se asigna a ningún movimiento. No se accede a datos reales ni se realizan comunicaciones o decisiones sobre producto.
+
+2. MAPA Y TRAZABILIDAD HACIA ADELANTE
+Proveedor Demo A -> R-A: lote A, 100 kg recibidos -> vínculo con P-M.
+Proveedor Demo B -> R-B: lote B, 40 kg recibidos -> vínculo con P-M.
+P-M (entradas A y B; consumos no cuantificados) -> lote M, 130 kg.
+P-M declara 5 kg de merma documentada según el input.
+Del lote M: E-1 -> Cliente Demo C, 80 kg; E-2 -> Cliente Demo D, 30 kg; existencia declarada M, 20 kg.
+Los vínculos A -> P-M -> M y B -> P-M -> M están declarados. No se aporta cantidad consumida de A o B, por lo que las cantidades recibidas no se convierten en consumos. Los dos orígenes siguen asociados al lote mezclado; no se inventa qué proporción de cada origen contiene una expedición ni se asigna la merma a uno de ellos.
+
+3. TRAZABILIDAD HACIA ATRÁS
+E-1 / Cliente Demo C / 80 kg -> M -> P-M -> A / R-A / Proveedor Demo A y B / R-B / Proveedor Demo B.
+E-2 / Cliente Demo D / 30 kg -> M -> P-M -> los mismos dos orígenes A y B.
+Existencia de M / 20 kg -> P-M -> los mismos dos orígenes.
+No se puede reconstruir un consumo cuantitativo por origen ni por destinatario con este input.
+
+4. BALANCE Y DIFERENCIAS
+Recepciones: 100 + 40 = 140 kg.
+Producto M declarado: 130 kg. Merma declarada en P-M: 5 kg.
+Conciliación global de lo aportado: 140 - 130 - 5 = 5 kg sin conciliar.
+Si todas las entradas se hubieran consumido en P-M, faltarían justificar 5 kg. Ese consumo total no está documentado: podrían existir materias primas no consumidas u otros movimientos, pero no consta ninguna explicación y no se elige una por suposición. Los 5 kg adicionales no se registran como merma ni como movimiento real. El rendimiento del proceso no es calculable de forma fiable sin consumo real.
+
+Distribución de M: 80 + 30 + 20 = 130 kg; diferencia 130 - 110 - 20 = 0 kg. Cierra aritméticamente la producción declarada con las expediciones y existencia aportadas. No se suman de nuevo producto, expediciones y stock como si fueran cantidades independientes.
+
+5. VÍNCULOS Y DATOS PENDIENTES PARA EL RESPONSABLE
+F-P01. Cantidades efectivamente incorporadas de A y B a P-M, divisiones previas y posibles remanentes de materias primas: necesarios para cerrar el proceso por origen.
+F-P02. Justificación documental de la diferencia aparente de 5 kg: revisar consumos, inventarios, otros movimientos y rectificaciones; no reclasificarla automáticamente como merma.
+F-P03. Fechas de recepción, proceso y expediciones; fecha de corte del stock. Sin ellas no se valida cronología, corte de balance o tiempos.
+F-P04. Documento, ubicación y comprobación del stock de M (20 kg) y registros originales con revisión: solo existe una fila de inventario sin identificador propio.
+F-P05. Identificación de producto y operador, y confirmación del alcance de devoluciones, ajustes o transformaciones adicionales. No aparecen en el input; su ausencia no prueba que sean cero.
+F-P06. Evidencia de la merma declarada de 5 kg en el proceso y su tratamiento, según procedimientos del operador. La cifra se conserva sin ampliarla.
+Los enlaces documentales cualitativos aportados están presentes; las carencias cuantitativas, temporales y de soporte impiden declarar trazabilidad completa.
+
+6. ENTREGABLES Y ESTADO
+food-registro.csv contiene 9 filas: 2 recepciones, 2 vínculos sin cantidad consumida, 1 salida de proceso, 1 merma declarada, 2 expediciones y 1 existencia. Mantiene las 11 columnas originales y añade identidad, tipo de movimiento y revisión/ubicación de fuente para que cantidad tenga un significado explícito.
+food-balances.csv separa la conciliación global pendiente del balance de M que cuadra. Los campos vacíos no equivalen a cero.
+Resultado: trazabilidad cualitativa reconstruida con limitaciones; balance de origen y cronología pendientes. No se declara seguridad, aptitud del producto ni necesidad de retirada. Los límites y decisiones sobre producto corresponden al sistema de autocontrol y al responsable del operador.

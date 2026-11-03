@@ -1,0 +1,87 @@
+{
+  "architectural_project": {
+    "fictional": true,
+    "name": "Oficina demostrativa",
+    "phase": "borrador de memoria descriptiva",
+    "jurisdiction": null,
+    "address": null,
+    "documents": [
+      {
+        "id": "P-01",
+        "revision": "3",
+        "date": "2026-10-28",
+        "kind": "cuadro de superficies",
+        "areas_useful_m2": {
+          "oficina": 60,
+          "reunion": 20,
+          "servicios": 10
+        },
+        "built_area_m2": 110
+      },
+      {
+        "id": "M-01",
+        "revision": "2",
+        "date": "2026-10-20",
+        "kind": "memoria anterior",
+        "stated_useful_area_m2": 95
+      }
+    ],
+    "works_confirmed": [
+      "renovacion de pavimento interior"
+    ],
+    "works_pending": [
+      "distribucion de nuevos despachos"
+    ],
+    "technical_compliance_evidence": []
+  },
+  "food_trace": {
+    "fictional": true,
+    "unit": "kg",
+    "receipts": [
+      {
+        "document": "R-A",
+        "supplier": "Proveedor Demo A",
+        "lot": "A",
+        "quantity": 100
+      },
+      {
+        "document": "R-B",
+        "supplier": "Proveedor Demo B",
+        "lot": "B",
+        "quantity": 40
+      }
+    ],
+    "processes": [
+      {
+        "document": "P-M",
+        "inputs": [
+          "A",
+          "B"
+        ],
+        "output_lot": "M",
+        "output_quantity": 130,
+        "documented_waste": 5
+      }
+    ],
+    "shipments": [
+      {
+        "document": "E-1",
+        "lot": "M",
+        "recipient": "Cliente Demo C",
+        "quantity": 80
+      },
+      {
+        "document": "E-2",
+        "lot": "M",
+        "recipient": "Cliente Demo D",
+        "quantity": 30
+      }
+    ],
+    "stock": [
+      {
+        "lot": "M",
+        "quantity": 20
+      }
+    ]
+  }
+}

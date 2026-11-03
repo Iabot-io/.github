@@ -1,0 +1,28 @@
+{
+  "skill": "education-skills/skills/assessment-rubric-design/SKILL.md",
+  "request": "Prepara una rubrica para la tarea y conserva pendientes las decisiones contradictorias.",
+  "input": {
+    "fictional": true,
+    "task": "explicar un procedimiento de reciclaje a partir del texto aportado",
+    "objectives": [
+      "identificar etapas",
+      "justificar el orden",
+      "explicar un ejemplo"
+    ],
+    "proposed_weights": [
+      {
+        "criterion": "identificar etapas",
+        "weight": 50
+      },
+      {
+        "criterion": "justificar el orden",
+        "weight": 30
+      },
+      {
+        "criterion": "explicar un ejemplo",
+        "weight": 30
+      }
+    ],
+    "weight_total_policy": 100
+  }
+}

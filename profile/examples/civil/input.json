@@ -1,0 +1,36 @@
+{
+  "skill": "civil-engineering-skills/skills/civil-survey-input-audit/SKILL.md",
+  "request": "Audita los datos topograficos y prepara incidencias sin corregir coordenadas ni inventar metadatos.",
+  "input": {
+    "fictional": true,
+    "horizontal_crs": "EPSG:25830",
+    "horizontal_unit": "m",
+    "vertical_reference": null,
+    "points": [
+      {
+        "id": "P1",
+        "x": 500000,
+        "y": 4470000,
+        "z": 12.4
+      },
+      {
+        "id": "P2",
+        "x": 500010,
+        "y": 4470010,
+        "z": 12.6
+      },
+      {
+        "id": "P2",
+        "x": 500020,
+        "y": 4470020,
+        "z": 12.8
+      },
+      {
+        "id": "P3",
+        "x": 500030,
+        "y": 4470030,
+        "z": "unknown"
+      }
+    ]
+  }
+}

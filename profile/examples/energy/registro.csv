@@ -1,0 +1,4 @@
+suministro,factura,inicio,fin,tipo_lectura,energia,unidad,potencia,coste_energia,otros,impuestos,total,incidencia,periodo_original,valor_original,unidad_original,unidad_potencia,moneda,vigente,fuente,diferencia_componentes_total
+A,F1,,,no aportado,100,kWh,,20.00,5.00,2.50,27.50,sustituida por F2; excluida de agregados vigentes,2026-10,100,kWh,,no aportada,false,input.json#/input/bills/0,0.00
+A,F2,,,no aportado,120,kWh,,24.00,5.00,2.90,31.90,rectifica y sustituye F1; no se suma a F1,2026-10,120,kWh,,no aportada,true,input.json#/input/bills/1,0.00
+B,F3,,,no aportado,,,70,14.00,3.00,1.70,18.70,70 kW en campo energy: dimensión de potencia; atribución pendiente; no convertible a kWh sin datos,2026-10,70,kW,kW,no aportada,true,input.json#/input/bills/2,0.00

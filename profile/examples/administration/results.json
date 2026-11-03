@@ -1,0 +1,44 @@
+{
+  "currency": "EUR",
+  "bank_opening": "1000.00",
+  "bank_net_movement": "75.00",
+  "bank_calculated_closing": "1075.00",
+  "bank_supplied_closing": "1075.00",
+  "bank_balance_arithmetic_difference": "0.00",
+  "ledger_net_movement": "80.00",
+  "ledger_theoretical_closing_using_same_opening": "1080.00",
+  "ledger_opening_independently_confirmed": false,
+  "bank_minus_ledger_theoretical": "-5.00",
+  "matched": [
+    {
+      "bank": "B1",
+      "ledger": "C1"
+    },
+    {
+      "bank": "B2",
+      "ledger": "P1"
+    }
+  ],
+  "unmatched_bank": [
+    {
+      "id": "B3",
+      "amount": "-5.00",
+      "description": "bank fee",
+      "status": "pending; no posting created"
+    }
+  ],
+  "unmatched_ledger": [],
+  "account": null,
+  "period": null,
+  "dates": null,
+  "accounting_entries_created": 0,
+  "transactions_executed": [],
+  "unresolved_items": [
+    "B3: cargo de -5 EUR sin contraparte; revisar justificante y cobertura del libro",
+    "cuenta y periodo identificables",
+    "fechas contables y de valor",
+    "apertura contable independiente; 1080 EUR es solo un cierre teórico bajo apertura compartida",
+    "identidad/revisión original de extracto y registro y conciliación anterior"
+  ],
+  "ledger_actual_closing": null
+}

@@ -1,0 +1,33 @@
+{
+  "skill": "logistics-skills/skills/warehouse-inventory-reconciliation/SKILL.md",
+  "request": "Concilia stock fisico y teorico a fecha de corte y prepara diferencias, sin ejecutar ajustes.",
+  "input": {
+    "fictional": true,
+    "cutoff": "2026-11-05T18:00:00+01:00",
+    "counts": [
+      {
+        "sku": "A",
+        "location": "L1",
+        "unit": "piece",
+        "theoretical": 5,
+        "physical": 8
+      },
+      {
+        "sku": "A",
+        "location": "L2",
+        "unit": "piece",
+        "theoretical": 2,
+        "physical": 2
+      }
+    ],
+    "movements": [
+      {
+        "id": "R1",
+        "sku": "A",
+        "location": "L1",
+        "quantity": 3,
+        "date": "2026-11-06T09:00:00+01:00"
+      }
+    ]
+  }
+}

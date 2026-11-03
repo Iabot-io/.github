@@ -1,0 +1,8 @@
+periodo,cuenta,saldo_inicial,tipo_movimiento,importe,fecha_prevista,certeza,fuente,saldo_final,moneda,nota
+2026-11-02/2026-11-08,A,1000.00,apertura aportada,,2026-11-02 (supuesto),conciliación y fecha efectiva pendientes,input.json#/cash/opening_accounts/0,,EUR,No es un cobro; apertura interpretada provisionalmente al inicio del periodo.
+2026-11-02/2026-11-08,B,500.00,apertura aportada,,2026-11-02 (supuesto),conciliación y fecha efectiva pendientes,input.json#/cash/opening_accounts/1,,EUR,No es un cobro; apertura interpretada provisionalmente al inicio del periodo.
+2026-11-02/2026-11-08,A,,internal-transfer,-200.00,2026-11-03,transferencia interna aportada,input.json#/cash/movements/0 (t1-a),,EUR,Par interno t1-b; suma consolidada cero.
+2026-11-02/2026-11-08,B,,internal-transfer,200.00,2026-11-03,transferencia interna aportada,input.json#/cash/movements/1 (t1-b),,EUR,Par interno t1-a; suma consolidada cero.
+2026-11-02/2026-11-08,sin asignación,,customer,600.00,2026-11-05,confirmed,input.json#/cash/movements/2 (c1),,EUR,Confirmado en la entrada; fecha contractual no diferenciada de expectativa.
+2026-11-02/2026-11-08,sin asignación,,rent,-700.00,2026-11-04,confirmed,input.json#/cash/movements/3 (p1),,EUR,Confirmado en la entrada; fecha contractual no diferenciada de expectativa.
+2026-11-02/2026-11-08,sin asignación,,supplier,-100.00,2026-11-06,confirmed,input.json#/cash/movements/4 (p2),,USD,"Obligación confirmada de 100 USD; falta tipo EUR/USD definido en EUR por USD, cuenta de cargo y posibles comisiones."

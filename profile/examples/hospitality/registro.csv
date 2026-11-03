@@ -1,0 +1,4 @@
+fecha,tipo,capacidad_vendible,noches_confirmadas,provisionales,escenario,ocupacion,fuente,reservas_confirmadas,canceladas_excluidas_habitaciones_noche,disponibilidad_residual_confirmada,excepcion_capacidad,fecha_corte
+2026-11-03,total; tipos no aportados,1,1,0,confirmadas según entrada; no previsión de demanda,100.00%,input.json#/input/capacity/0; input.json#/input/reservations/0; input.json#/input/reservations/2,R1,1,0,sin exceso en datos aportados,no aportada
+2026-11-04,total; tipos no aportados,2,2,0,confirmadas según entrada; no previsión de demanda,100.00%,input.json#/input/capacity/1; input.json#/input/reservations/0; input.json#/input/reservations/1,R1;R2,0,0,sin exceso en datos aportados,no aportada
+2026-11-05,total; tipos no aportados,2,1,0,confirmadas según entrada; no previsión de demanda,50.00%,input.json#/input/capacity/2; input.json#/input/reservations/1,R2,0,1,sin exceso en datos aportados,no aportada

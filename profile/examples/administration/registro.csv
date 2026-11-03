@@ -1,0 +1,4 @@
+cuenta,movimiento,fecha,valor,concepto,importe,registro,coincidencia,diferencia,estado,moneda,importe_registro,fuente,periodo
+no aportada,B1,,,C1,100.00,C1,"referencia exacta e importe/signo exactos, única en la entrada",0.00,emparejado en el conjunto aportado,EUR,100.00,input.json#/input/bank/0; input.json#/input/ledger/0,no aportado
+no aportada,B2,,,P1,-20.00,P1,"referencia exacta e importe/signo exactos, única en la entrada",0.00,emparejado en el conjunto aportado,EUR,-20.00,input.json#/input/bank/1; input.json#/input/ledger/1,no aportado
+no aportada,B3,,,bank fee,-5.00,,sin contraparte en registro aportado,-5.00,pendiente de revisión; sin asiento generado,EUR,,input.json#/input/bank/2,no aportado

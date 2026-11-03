@@ -1,0 +1,3 @@
+sku,stock_util,reservas,demanda_diaria,plazo,recepciones,cobertura,necesidad,lote,propuesta,supuesto,fecha_corte,fin_horizonte,stock_fisico,stock_seguridad,recepciones_excluidas,fuente,pedido_creado
+X,7,3,2,5,0 dentro de horizonte,3.5 días,3,múltiplo 6,6,demanda uniforme aportada; seguridad 0; recepción tardía excluida,2026-11-01,2026-11-06,10,0,5 el 2026-11-08,input.json#/input/items/0; input.json#/input/policy,false
+Y,0,0,no calculable,5,0 dentro de horizonte,no calculable,,múltiplo 1,pendiente de demanda,demanda no inferible de ventas con rotura; no se usa cero,2026-11-01,2026-11-06,0,0,,input.json#/input/items/1; input.json#/input/policy,false

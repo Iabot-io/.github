@@ -1,0 +1,62 @@
+{
+  "budget": {
+    "as_of": "2026-10-31",
+    "currency": "EUR",
+    "programs": [
+      {
+        "id": "P1",
+        "initial_credit": 100000,
+        "modifications": [
+          15000,
+          -5000
+        ],
+        "committed": 70000,
+        "obligations": 50000,
+        "payments": 40000
+      },
+      {
+        "id": "P2",
+        "initial_credit": 20000,
+        "modifications": [],
+        "committed": 0,
+        "obligations": 5000,
+        "payments": 0
+      }
+    ]
+  },
+  "appointments": {
+    "date": "2026-11-04",
+    "timezone": "Europe/Madrid",
+    "rules": {
+      "one_room_per_visit": true,
+      "no_overlap": true,
+      "no_rescheduling_authorized": true
+    },
+    "visits": [
+      {
+        "id": "V1",
+        "room": "R1",
+        "start": "09:00",
+        "end": "09:30"
+      },
+      {
+        "id": "V2",
+        "room": "R1",
+        "start": "09:20",
+        "end": "09:50"
+      },
+      {
+        "id": "V3",
+        "room": "R2",
+        "start": "09:20",
+        "end": "09:40"
+      },
+      {
+        "id": "V4",
+        "room": "R1",
+        "start": "09:50",
+        "end": "10:10"
+      }
+    ]
+  }
+}

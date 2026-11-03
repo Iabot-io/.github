@@ -1,0 +1,40 @@
+{
+  "active_documents": [
+    "F2",
+    "F3"
+  ],
+  "superseded_documents": [
+    "F1"
+  ],
+  "supply_a_energy_kwh": "120",
+  "supply_b_energy_kwh": null,
+  "complete_total_energy_kwh": null,
+  "known_energy_kwh_subtotal": "120",
+  "supply_b_original_value": "70",
+  "supply_b_original_unit": "kW",
+  "supply_b_dimension": "power, concept attribution pending",
+  "currency": null,
+  "comparable_currency_total": null,
+  "conditional_same_currency_arithmetic_total": "50.60",
+  "conditional_components": {
+    "energy_cost": "38.00",
+    "other_cost": "8.00",
+    "tax": "4.60"
+  },
+  "per_document_component_difference": {
+    "F1": "0.00",
+    "F2": "0.00",
+    "F3": "0.00"
+  },
+  "meter_ids": null,
+  "reading_types": null,
+  "exact_period_dates": null,
+  "transactions_executed": [],
+  "unresolved_items": [
+    "moneda y base monetaria de cada factura; total monetario comparable no calculable",
+    "F3: campo energy en kW; confirmar unidad y concepto; consumo de B desconocido",
+    "contadores y tipos de lectura",
+    "fechas exactas de facturación y cobertura de huecos o solapes fuera de los documentos aportados",
+    "contratos y desglose de potencia, peajes y servicios"
+  ]
+}

@@ -1,0 +1,3 @@
+partida,unidad,cantidad_anterior,cantidad_actual,cantidad_periodo,precio_contrato,importe_periodo,fuente,pendiente,moneda,periodo,importe_propuesto_provisional,incluido_subtotal_provisional,estado
+P1,m2,30,45,15,10.00,150.00,input.json#/input/lines/0,validar mediciones y certificación anterior; aprobación documental no aportada,EUR,2026-10,150.00,true,propuesta provisional para revisión
+P2,m,12,10,-2,8.00,-16.00,input.json#/input/lines/1,autorizar/documentar descenso de acumulado; excluido del subtotal propuesto,EUR,2026-10,,false,corrección pendiente de autorización

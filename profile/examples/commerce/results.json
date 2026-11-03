@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-11-01",
+  "policy": "cover observed demand for lead time; safety stock 0; round order to multiple",
+  "items": [
+    {
+      "id": "X",
+      "usable_units": "7",
+      "lead_days": 5,
+      "horizon_end": "2026-11-06",
+      "daily_demand": "2",
+      "safety_stock_units": "0",
+      "receipts_in_horizon_units": "0",
+      "excluded_late_receipts": [
+        {
+          "date": "2026-11-08",
+          "quantity": 5
+        }
+      ],
+      "lead_demand_units": "10",
+      "net_need_units": "3",
+      "order_multiple": 6,
+      "proposed_order_units": 6,
+      "coverage_days": "3.5",
+      "stockout_censors_observed_sales": false
+    },
+    {
+      "id": "Y",
+      "usable_units": "0",
+      "lead_days": 5,
+      "horizon_end": "2026-11-06",
+      "daily_demand": null,
+      "safety_stock_units": "0",
+      "receipts_in_horizon_units": "0",
+      "excluded_late_receipts": [],
+      "lead_demand_units": null,
+      "net_need_units": null,
+      "order_multiple": 1,
+      "proposed_order_units": null,
+      "coverage_days": null,
+      "stockout_censors_observed_sales": true
+    }
+  ],
+  "orders_created": 0,
+  "x_pre_receipt_shortfall_units": "3",
+  "x_coverage_shorter_than_lead_by_days": "1.5",
+  "x_demand_threshold_for_proposal_six_units_per_day": "2.6",
+  "unresolved_items": [
+    "Y: demanda desconocida; ventas cero con rotura no permiten estimarla",
+    "periodo comparable, promociones y estacionalidad de la demanda aportada no documentados",
+    "horas y disponibilidad efectiva de recepciones no aportadas; no afectan a excluir el 08/11",
+    "X: revisar respuesta al déficit antes de recepción; un pedido al plazo normal no lo corrige retroactivamente",
+    "material dañado o bloqueos adicionales no aportados; disponible calculado solo desde reservas conocidas"
+  ]
+}

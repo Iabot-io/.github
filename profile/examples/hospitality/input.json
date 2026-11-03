@@ -1,0 +1,45 @@
+{
+  "skill": "hospitality-skills/skills/hotel-occupancy-forecast/SKILL.md",
+  "request": "Prepara ocupacion confirmada por noche del 3 al 5 de noviembre con estas reservas y capacidad.",
+  "input": {
+    "fictional": true,
+    "year": 2026,
+    "capacity": [
+      {
+        "date": "2026-11-03",
+        "sellable_rooms": 1
+      },
+      {
+        "date": "2026-11-04",
+        "sellable_rooms": 2
+      },
+      {
+        "date": "2026-11-05",
+        "sellable_rooms": 2
+      }
+    ],
+    "reservations": [
+      {
+        "id": "R1",
+        "arrival": "2026-11-03",
+        "departure": "2026-11-05",
+        "rooms": 1,
+        "status": "confirmed"
+      },
+      {
+        "id": "R2",
+        "arrival": "2026-11-04",
+        "departure": "2026-11-06",
+        "rooms": 1,
+        "status": "confirmed"
+      },
+      {
+        "id": "R3",
+        "arrival": "2026-11-03",
+        "departure": "2026-11-04",
+        "rooms": 1,
+        "status": "cancelled"
+      }
+    ]
+  }
+}

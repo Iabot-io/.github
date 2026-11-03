@@ -1,0 +1,3 @@
+referencia,equipo,unidad,stock_util,reservas,consumo,plazo,impacto,cobertura,propuesta,fuente,stock_fisico_original,unidad_original,stock_fisico_piezas,cantidad_necesaria_objetivo_actual,objetivo_dias,pedido_emitido
+A,no aportado,pieza,15,5,20 piezas / 30 días,15 días,no aportado; criticidad no asignada,22.5 días,10 piezas si objetivo a fecha actual; 15 si objetivo a recepción,input.json#/input/items/0; input.json#/input/period_days,2,box,20,5,30,false
+B,no aportado,pieza,3,0,no aportado,no aportado,no aportado; criticidad no asignada,no calculable,pendiente; consumo y plazo desconocidos,input.json#/input/items/1; input.json#/input/period_days,3,piece,3,,30,false

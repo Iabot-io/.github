@@ -1,0 +1,22 @@
+{
+  "skill": "human-resources-skills/skills/structured-interview-kit/SKILL.md",
+  "request": "Prepara preguntas y rubrica comparables para las funciones indicadas.",
+  "input": {
+    "fictional": true,
+    "role": "operador de inventario",
+    "functions": [
+      "recuento de existencias",
+      "uso de lector de codigos",
+      "registro de incidencias"
+    ],
+    "competencies": [
+      "precision de recuento",
+      "seguimiento de instrucciones",
+      "comunicacion de diferencias"
+    ],
+    "unreviewed_notes": [
+      "preferiblemente de 25 a 35 anos"
+    ],
+    "conditions_confirmed": false
+  }
+}

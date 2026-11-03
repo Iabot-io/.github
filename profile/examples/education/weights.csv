@@ -1,0 +1,4 @@
+criterio,peso_propuesto,peso_aprobado,total_politica,suma_propuestas,exceso_sobre_politica,estado,fuente,revision_fuente
+identificar etapas,50,,100,110,10,pendiente de decision docente; no normalizado ni aplicado,input.json#/input/proposed_weights/0,e450c489571da6d1cbee196aabcb83d55b2df2fd0e7ababcd3e352e60494bfcc
+justificar el orden,30,,100,110,10,pendiente de decision docente; no normalizado ni aplicado,input.json#/input/proposed_weights/1,e450c489571da6d1cbee196aabcb83d55b2df2fd0e7ababcd3e352e60494bfcc
+explicar un ejemplo,30,,100,110,10,pendiente de decision docente; no normalizado ni aplicado,input.json#/input/proposed_weights/2,e450c489571da6d1cbee196aabcb83d55b2df2fd0e7ababcd3e352e60494bfcc

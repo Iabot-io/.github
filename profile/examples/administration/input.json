@@ -1,0 +1,37 @@
+{
+  "skill": "administration-skills/skills/bank-statement-reconciliation/SKILL.md",
+  "request": "Concilia extracto y registro sin contabilizar automaticamente diferencias.",
+  "input": {
+    "fictional": true,
+    "currency": "EUR",
+    "opening": 1000,
+    "closing": 1075,
+    "bank": [
+      {
+        "id": "B1",
+        "amount": 100,
+        "reference": "C1"
+      },
+      {
+        "id": "B2",
+        "amount": -20,
+        "reference": "P1"
+      },
+      {
+        "id": "B3",
+        "amount": -5,
+        "reference": "bank fee"
+      }
+    ],
+    "ledger": [
+      {
+        "id": "C1",
+        "amount": 100
+      },
+      {
+        "id": "P1",
+        "amount": -20
+      }
+    ]
+  }
+}

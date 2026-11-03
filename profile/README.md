@@ -54,7 +54,7 @@ También contemplamos **administraciones públicas, ayuntamientos y equipos inst
 | [Compras y proveedores](https://github.com/Iabot-io/procurement-skills) | Solicitudes, comparativas, homologación y seguimiento de compras con decisiones documentadas. |
 | [Marketing y contenido verificable](https://github.com/Iabot-io/marketing-skills) | Contenido útil, afirmaciones comprobables, SEO y medición comercial con fuentes y objetivos claros. |
 
-Consulta también [la guía de software Linux](SOFTWARE-LINUX.md), [el criterio de investigación](INVESTIGACION.md) y la [captura fechada del top 100 de skills.sh](top-100-skills-2026-11-03.csv).
+El catálogo completo enlaza a las fichas de cada habilidad en skills.sh. Consulta también [la guía de software Linux](SOFTWARE-LINUX.md), [el criterio de investigación](INVESTIGACION.md) y la [captura fechada del top 100 de skills.sh](top-100-skills-2026-11-03.csv). Hay [ejemplos sintéticos de aplicación](examples/README.md) para revisar resultados y límites.
 
 ## Cómo usar estas skills en IAbot.io
 

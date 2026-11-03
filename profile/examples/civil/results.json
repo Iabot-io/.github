@@ -1,0 +1,62 @@
+{
+  "case": "civil",
+  "provenance": {
+    "input_path": "input.json",
+    "input_sha256": "0bd5bb55d913d27fe1950f4938b3b6ed237a9a2b6963348fc1d361283b0eda0c",
+    "skill_path": "https://github.com/Iabot-io/civil-engineering-skills/blob/main/skills/civil-survey-input-audit/SKILL.md",
+    "skill_version": "0.1.0",
+    "skill_sha256": "8db9170b083337d7bd3fe51577444b72f1857cb72a44b872cd9eda53eceee7ae",
+    "template_path": "https://github.com/Iabot-io/civil-engineering-skills/blob/main/skills/civil-survey-input-audit/assets/registro.csv",
+    "template_sha256": "97c3a482c30ba09311a657b3b82db7d58e2941c8b402d7b73792f172f586cf3a",
+    "review_date": "2026-11-03",
+    "fictional": true
+  },
+  "status": "audit_completed_with_unresolved_source_issues",
+  "row_count": 4,
+  "unique_identifier_count": 3,
+  "duplicate_identifiers": {
+    "P2": [
+      1,
+      2
+    ]
+  },
+  "source_row_indices_are_zero_based": true,
+  "non_numeric_z": [
+    {
+      "source_row_index": 3,
+      "id": "P3",
+      "raw": "unknown"
+    }
+  ],
+  "horizontal_crs_declared": "EPSG:25830",
+  "horizontal_crs_independently_verified": null,
+  "horizontal_extent": {
+    "x_min": 500000,
+    "x_max": 500030,
+    "y_min": 4470000,
+    "y_max": 4470030,
+    "unit": "m"
+  },
+  "vertical_reference": null,
+  "vertical_unit": null,
+  "numeric_z_range": {
+    "min": 12.4,
+    "max": 12.8,
+    "unit": null,
+    "records_used": 3
+  },
+  "exact_xy_duplicate_count": 0,
+  "transformations_applied": [],
+  "source_coordinates_changed": false,
+  "control_validation": null,
+  "unresolved": [
+    "Confirmar identidad de las dos filas P2",
+    "Aportar cota de P3 y evidencia original",
+    "Referencia y unidad vertical",
+    "Fecha, origen, memoria, puntos de control y tolerancias"
+  ],
+  "instruction_or_template_gaps": [
+    "La columna unica unidad no distingue horizontal de vertical.",
+    "No hay clave de fila original para reconstruir incidencias cuando se repite punto; se anadio fila_origen."
+  ]
+}

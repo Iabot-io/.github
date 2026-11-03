@@ -1,0 +1,5 @@
+escenario,periodo,apertura_subtotal_eur_sin_p2,cobros_eur,pagos_eur,transferencias_internas_neto_eur,pagos_usd_sin_convertir,cierre_subtotal_eur_sin_p2,apertura_eur_condicional,cierre_eur_condicional,supuesto_fuente
+base,2026-11-02/2026-11-08,1500.00,600.00,700.00,0.00,100.00,1400.00,1500,1400 - 100*r,"input.json#/cash; r en EUR por USD, sin comisiones no aportadas"
+base,2026-11-09/2026-11-15,1400.00,0.00,0.00,0.00,0.00,1400.00,1400 - 100*r,1400 - 100*r,Sin movimientos adicionales aportados; no acredita exhaustividad
+"retraso c1 siete días, no aprobado",2026-11-02/2026-11-08,1500.00,0.00,700.00,0.00,100.00,800.00,1500,800 - 100*r,c1: 2026-11-05 pasa a 2026-11-12; resto igual
+"retraso c1 siete días, no aprobado",2026-11-09/2026-11-15,800.00,600.00,0.00,0.00,0.00,1400.00,800 - 100*r,1400 - 100*r,Mismo r en ambas semanas; sin comisiones no aportadas

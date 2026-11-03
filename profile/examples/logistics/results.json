@@ -1,0 +1,82 @@
+{
+  "case": "logistics",
+  "provenance": {
+    "input_path": "input.json",
+    "input_sha256": "d415fb763f189ba9d611cd048d9a9d46ebe47068cd68e9480b98de950281a936",
+    "skill_path": "https://github.com/Iabot-io/logistics-skills/blob/main/skills/warehouse-inventory-reconciliation/SKILL.md",
+    "skill_version": "0.1.0",
+    "skill_sha256": "c8cf4f21d94eae1378d96fb30876b8b7a56d92a7335d1c9f41348fbccc591138",
+    "template_path": "https://github.com/Iabot-io/logistics-skills/blob/main/skills/warehouse-inventory-reconciliation/assets/registro.csv",
+    "template_sha256": "a0e97f43f8254fb57411bb1a049d3149e6a7f2dbdadbabe86b8f26c401bb382a",
+    "review_date": "2026-11-03",
+    "fictional": true
+  },
+  "status": "provisional_cutoff_reconciliation",
+  "cutoff": "2026-11-05T18:00:00+01:00",
+  "individual_count_and_theoretical_timestamps_verified": null,
+  "lines": [
+    {
+      "sku": "A",
+      "location": "L1",
+      "unit": "piece",
+      "theoretical": 5,
+      "physical": 8,
+      "difference": 3,
+      "lot": null,
+      "confirmed_adjustment": null
+    },
+    {
+      "sku": "A",
+      "location": "L2",
+      "unit": "piece",
+      "theoretical": 2,
+      "physical": 2,
+      "difference": 0,
+      "lot": null,
+      "confirmed_adjustment": null
+    }
+  ],
+  "descriptive_totals": {
+    "theoretical": 7,
+    "physical": 10,
+    "physical_minus_theoretical": 3,
+    "unit": "piece"
+  },
+  "movement_classification": [
+    {
+      "id": "R1",
+      "sku": "A",
+      "location": "L1",
+      "quantity": 3,
+      "date": "2026-11-06T09:00:00+01:00",
+      "classification": "posterior",
+      "hours_after_cutoff": 15.0,
+      "included_in_cutoff_reconciliation": false,
+      "movement_type": null,
+      "unit": null
+    }
+  ],
+  "documented_cause": null,
+  "candidate_arithmetic_adjustments": [
+    {
+      "sku": "A",
+      "location": "L1",
+      "quantity": 3,
+      "unit": "piece",
+      "approved": false,
+      "executed": false
+    }
+  ],
+  "stock_modified": false,
+  "unresolved": [
+    "Confirmar cortes individuales de recuento y teorico",
+    "Lotes e intercambiabilidad",
+    "Verificacion de recuento y causa de +3 en L1",
+    "Tipo, unidad y evidencia de R1",
+    "Completitud de movimientos y ubicaciones"
+  ],
+  "instruction_or_template_gaps": [
+    "La plantilla no contiene fecha de corte ni fecha y clasificacion temporal de movimientos.",
+    "La plantilla no separa candidato aritmetico de ajuste aprobado/ejecutado ni contiene referencias de fuente; se explicitaron los estados."
+  ]
+}

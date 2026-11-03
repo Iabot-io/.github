@@ -1,0 +1,128 @@
+{
+  "cash": {
+    "period": [
+      "2026-11-02",
+      "2026-11-15"
+    ],
+    "opening_eur": "1500.00",
+    "internal_transfer_net_eur": "0.00",
+    "receipts_eur": "600.00",
+    "payments_eur": "700.00",
+    "closing_known_eur_subtotal": "1400.00",
+    "pending_confirmed_payment": {
+      "id": "p2",
+      "amount": "100.00",
+      "currency": "USD",
+      "date": "2026-11-06",
+      "exchange_rate": null
+    },
+    "complete_numeric_consolidated_balance": null,
+    "conditional_closing_eur": "1400 - 100*r (r EUR por USD; sin comisiones no aportadas)",
+    "account_balances_after_internal_transfer_only": {
+      "A": "800.00",
+      "B": "700.00"
+    },
+    "delay_scenario": {
+      "change": "c1 se retrasa de 2026-11-05 a 2026-11-12; escenario no aprobado",
+      "week_one_conditional_eur": "800 - 100*r",
+      "week_two_conditional_eur": "1400 - 100*r"
+    },
+    "unresolved": [
+      "fecha de corte y conciliación",
+      "tipo EUR por USD y comisiones de p2",
+      "cuentas de cargo/abono externas",
+      "vencimiento contractual frente a fecha esperada",
+      "exhaustividad y recurrencias de ambas semanas"
+    ]
+  },
+  "suppliers": {
+    "basis": "10 unidades, EUR sin IVA recuperable al 21% según entrada",
+    "offers": [
+      {
+        "id": "A",
+        "required_quantity": 10,
+        "purchased_quantity": 10,
+        "surplus_quantity": 0,
+        "unit_net_eur": "100.00",
+        "delivery_net_eur": "50.00",
+        "net_outlay_eur": "1050.00",
+        "vat_reference_eur": "220.50",
+        "gross_reference_eur": "1270.50",
+        "exact_required_scope_feasible": true,
+        "exact_required_scope_cost_eur": "1050.00",
+        "evidence": "input.json#/offers/offers/0",
+        "exclusions": [
+          "mantenimiento, uso, plazo, calidad, garantías y condiciones de pago no aportados"
+        ],
+        "scoring": null
+      },
+      {
+        "id": "B",
+        "required_quantity": 10,
+        "purchased_quantity": 10,
+        "surplus_quantity": 0,
+        "unit_net_eur": "98.00",
+        "delivery_net_eur": "0.00",
+        "net_outlay_eur": "980.00",
+        "vat_reference_eur": "205.80",
+        "gross_reference_eur": "1185.80",
+        "exact_required_scope_feasible": true,
+        "exact_required_scope_cost_eur": "980.00",
+        "evidence": "input.json#/offers/offers/1",
+        "exclusions": [
+          "mantenimiento, uso, plazo, calidad, garantías y condiciones de pago no aportados"
+        ],
+        "scoring": null
+      },
+      {
+        "id": "C",
+        "required_quantity": 10,
+        "purchased_quantity": 20,
+        "surplus_quantity": 10,
+        "unit_net_eur": "95.00",
+        "delivery_net_eur": "0.00",
+        "net_outlay_eur": "1900.00",
+        "vat_reference_eur": "399.00",
+        "gross_reference_eur": "2299.00",
+        "exact_required_scope_feasible": false,
+        "exact_required_scope_cost_eur": null,
+        "evidence": "input.json#/offers/offers/2",
+        "exclusions": [
+          "mantenimiento, uso, plazo, calidad, garantías y condiciones de pago no aportados"
+        ],
+        "scoring": null
+      }
+    ],
+    "lowest_documented_exact_scope_cost": {
+      "id": "B",
+      "net_eur": "980.00",
+      "saving_vs_a_eur": "70.00",
+      "conditional_on": "equivalencia y demás requisitos no aportados"
+    },
+    "award": null,
+    "weights": null,
+    "sensitivities": [
+      {
+        "change": "A mantiene entrega 50 EUR; variar solo precio unitario neto",
+        "tie_with_b_unit_net_eur": "93.00"
+      },
+      {
+        "change": "demanda hipotética pasa a 20; mismos precios/entrega; sin descuentos adicionales",
+        "not_approved": true,
+        "net_eur": {
+          "A": "2050.00",
+          "B": "1960.00",
+          "C": "1900.00"
+        }
+      }
+    ]
+  },
+  "verification": {
+    "internal_transfer_balances": true,
+    "weekly_continuity": true,
+    "vat_normalization": true,
+    "minimum_quantity_enforced": true,
+    "missing_fx_preserved": true,
+    "no_invented_weights": true
+  }
+}

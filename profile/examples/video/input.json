@@ -1,0 +1,10 @@
+{
+  "skill": "video-skills/skills/subtitle-timing-review/SKILL.md",
+  "request": "Revisa estructura y tiempos del SRT contra la duracion, sin afirmar que has escuchado audio no aportado.",
+  "input": {
+    "fictional": true,
+    "video_duration_seconds": 2,
+    "audio_provided": false,
+    "srt": "1\n00:00:00,000 --> 00:00:01,200\nHola\n\n2\n00:00:01,000 --> 00:00:03,000\nFinal\n"
+  }
+}

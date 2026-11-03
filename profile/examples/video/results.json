@@ -1,0 +1,41 @@
+{
+  "format": "SRT",
+  "cue_count": 2,
+  "numbering_sequential": true,
+  "non_positive_intervals": 0,
+  "overlap": {
+    "first_cue": 1,
+    "second_cue": 2,
+    "seconds": "0.2"
+  },
+  "declared_video_duration_seconds": 2,
+  "video_duration_independently_verified": false,
+  "helper_duration_option_used": false,
+  "cue_2_end_seconds": "3",
+  "cue_2_excess_over_declared_duration_seconds": "1",
+  "helper_original_structural_ok": false,
+  "helper_original_issue_codes": [
+    "OVERLAP"
+  ],
+  "comparison_to_declared_duration_issue_codes": [
+    "AFTER_DECLARED_DURATION"
+  ],
+  "proposal_status": "unverified structural candidate only",
+  "proposal_helper_structural_ok": true,
+  "proposal_cue_2_start_seconds": "1.2",
+  "proposal_cue_2_end_seconds": "2",
+  "proposal_cue_2_duration_seconds": "0.8",
+  "proposal_cue_2_characters_per_second": "6.25",
+  "audio_provided": false,
+  "audio_reviewed": false,
+  "audio_sync_verified": false,
+  "text_changed": false,
+  "unresolved_items": [
+    "vídeo y duración final medida no aportados",
+    "audio y sincronía no revisados",
+    "correspondencia de archivo con versión final del medio desconocida",
+    "confirmar si el solape es intencional antes de retocar",
+    "idioma y criterios de legibilidad/entrega no especificados; métricas no certifican accesibilidad",
+    "validar el candidato contra el medio antes de aprobarlo"
+  ]
+}

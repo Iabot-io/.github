@@ -1,0 +1,35 @@
+{
+  "skill": "real-estate-skills/skills/property-comparables-matrix/SKILL.md",
+  "request": "Compara las ofertas aportadas y explica que indicadores son realmente comparables; no emitas una tasacion.",
+  "input": {
+    "fictional": true,
+    "date": "2026-11-01",
+    "properties": [
+      {
+        "id": "A",
+        "asking_price": 100000,
+        "currency": "EUR",
+        "area": 100,
+        "area_type": "useful",
+        "source": "listing-A"
+      },
+      {
+        "id": "B",
+        "asking_price": 120000,
+        "currency": "EUR",
+        "area": 120,
+        "area_type": "built",
+        "source": "listing-B"
+      },
+      {
+        "id": "C",
+        "asking_price": 96000,
+        "currency": "EUR",
+        "area": 80,
+        "area_type": "useful",
+        "source": "listing-C"
+      }
+    ],
+    "other_comparability_data": null
+  }
+}

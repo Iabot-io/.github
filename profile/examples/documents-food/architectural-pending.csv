@@ -1,0 +1,11 @@
+id,dato_o_decision,efecto,responsable_o_fuente_necesaria
+AR-01,Jurisdicción y dirección; emplazamiento concreto,Impide delimitar los requisitos aplicables y vincular el documento a un inmueble,Información de proyecto; promotor y técnico por identificar
+AR-02,"Promotor, destinatario y técnico responsable",Falta identificación del encargo y de la revisión o firma,Encargo y designaciones no aportados
+AR-03,Vigencia y aprobación de P-01 y M-01,La fecha posterior no demuestra por sí sola revisión aprobada; uso provisional de P-01,Control documental y originales de P-01 y M-01
+AR-04,Diferencia de 5 m² útiles entre P-01 y M-01,No se puede presentar una cifra conciliada ni atribuir la diferencia a una causa,"Técnico: revisar ámbitos y criterios, contrastar geometría y corregir la fuente que proceda"
+AR-05,"Ámbito, método de medición y estado de las áreas",No se conoce si las áreas corresponden al estado existente o propuesto; tampoco hay superficie computable,Planos y criterio de medición del proyecto
+AR-06,Estado previo verificado,"No hay levantamiento, inspección o descripción contrastada del pavimento y sus soportes",Levantamiento y documentación del estado actual
+AR-07,Alcance de la renovación del pavimento,"No se identifican estancias, superficie intervenida, materiales, espesores, soporte, encuentros ni prestaciones",Decisiones y documentación técnica de la intervención
+AR-08,Distribución de nuevos despachos,Actuación pendiente; no se incorpora como solución decidida ni ejecutada,Decisión del proyecto y plano coordinado posterior
+AR-09,Normas aplicables y justificaciones técnicas,Sin jurisdicción y evidencia no se justifica cumplimiento ni se declara no aplicabilidad,"Técnico responsable: fuentes oficiales, versiones, requisitos y planos/cálculos/ensayos"
+AR-10,"Planos, mediciones y anexos originales coordinados",Solo hay extractos estructurados; no se han contrastado los archivos de proyecto,Entrega y revisión documental de los originales

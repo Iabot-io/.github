@@ -1,0 +1,96 @@
+{
+  "cash": {
+    "period": [
+      "2026-11-02",
+      "2026-11-15"
+    ],
+    "opening_accounts": [
+      {
+        "id": "A",
+        "amount": 1000,
+        "currency": "EUR"
+      },
+      {
+        "id": "B",
+        "amount": 500,
+        "currency": "EUR"
+      }
+    ],
+    "movements": [
+      {
+        "id": "t1-a",
+        "account": "A",
+        "date": "2026-11-03",
+        "amount": -200,
+        "currency": "EUR",
+        "kind": "internal-transfer",
+        "linked": "t1-b"
+      },
+      {
+        "id": "t1-b",
+        "account": "B",
+        "date": "2026-11-03",
+        "amount": 200,
+        "currency": "EUR",
+        "kind": "internal-transfer",
+        "linked": "t1-a"
+      },
+      {
+        "id": "c1",
+        "date": "2026-11-05",
+        "amount": 600,
+        "currency": "EUR",
+        "kind": "customer",
+        "certainty": "confirmed"
+      },
+      {
+        "id": "p1",
+        "date": "2026-11-04",
+        "amount": -700,
+        "currency": "EUR",
+        "kind": "rent",
+        "certainty": "confirmed"
+      },
+      {
+        "id": "p2",
+        "date": "2026-11-06",
+        "amount": -100,
+        "currency": "USD",
+        "kind": "supplier",
+        "certainty": "confirmed",
+        "exchange_rate": null
+      }
+    ]
+  },
+  "offers": {
+    "quantity_required": 10,
+    "compare": "EUR excluding recoverable VAT",
+    "vat_rate": 0.21,
+    "offers": [
+      {
+        "id": "A",
+        "unit_price": 100,
+        "tax": "excluded",
+        "delivery": 50,
+        "delivery_tax": "excluded",
+        "minimum_quantity": 1
+      },
+      {
+        "id": "B",
+        "unit_price": 118.58,
+        "tax": "included",
+        "delivery": 0,
+        "delivery_tax": "included",
+        "minimum_quantity": 1
+      },
+      {
+        "id": "C",
+        "unit_price": 95,
+        "tax": "excluded",
+        "delivery": 0,
+        "delivery_tax": "excluded",
+        "minimum_quantity": 20
+      }
+    ]
+  }
+}

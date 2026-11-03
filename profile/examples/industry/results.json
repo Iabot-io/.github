@@ -1,0 +1,56 @@
+{
+  "period_days": 30,
+  "items": [
+    {
+      "id": "A",
+      "physical_pieces": "20",
+      "reserved_pieces": 5,
+      "usable_pieces": "15",
+      "consumption_pieces_per_30_days": 20,
+      "daily_consumption_fraction": "2/3",
+      "coverage_days": "22.5",
+      "lead_days": 15,
+      "lead_demand_pieces": "10",
+      "target_30_days_pieces": "20",
+      "gap_to_target_now_pieces": "5",
+      "minimum_order_pieces": 10,
+      "review_order_if_target_measured_now_pieces": 10,
+      "review_order_if_target_30_days_at_receipt_pieces": 15,
+      "policy_target_anchor_confirmed": false,
+      "final_order_quantity": null,
+      "criticality": null
+    },
+    {
+      "id": "B",
+      "physical_pieces": "3",
+      "reserved_pieces": 0,
+      "usable_pieces": "3",
+      "consumption_pieces_per_30_days": null,
+      "daily_consumption_fraction": null,
+      "coverage_days": null,
+      "lead_days": null,
+      "lead_demand_pieces": null,
+      "target_30_days_pieces": null,
+      "gap_to_target_now_pieces": null,
+      "minimum_order_pieces": 1,
+      "review_order_if_target_measured_now_pieces": null,
+      "review_order_if_target_30_days_at_receipt_pieces": null,
+      "policy_target_anchor_confirmed": false,
+      "final_order_quantity": null,
+      "criticality": null
+    }
+  ],
+  "orders_created": 0,
+  "sensitivity_a": {
+    "lead_time_break_even_days": "22.5",
+    "consumption_threshold_for_15_day_lead_pieces_per_day": "1",
+    "consumption_threshold_for_15_day_lead_pieces_per_30_days": "30"
+  },
+  "unresolved_items": [
+    "confirmar fecha del inventario y material dañado o recepciones no aportados",
+    "aclarar si target_days se mide ahora o al recibir reposición",
+    "confirmar si compra requiere cajas enteras; mínimo de piezas no equivale a múltiplo",
+    "B: consumo y plazo desconocidos",
+    "equipos compatibles, impacto y criterios de criticidad no aportados"
+  ]
+}

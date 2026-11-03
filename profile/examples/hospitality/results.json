@@ -1,0 +1,41 @@
+{
+  "night_dates": [
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05"
+  ],
+  "confirmed_rooms_per_night": [
+    1,
+    2,
+    1
+  ],
+  "sellable_rooms_per_night": [
+    1,
+    2,
+    2
+  ],
+  "occupancy_pct": [
+    100,
+    100,
+    50
+  ],
+  "confirmed_room_nights": 4,
+  "sellable_room_nights": 5,
+  "weighted_occupancy_pct": 80,
+  "cancelled_excluded": [
+    "R3"
+  ],
+  "departure_night_counted": false,
+  "room_type_breakdown": null,
+  "snapshot_cutoff": null,
+  "demand_forecast": null,
+  "history": null,
+  "unapproved_scenarios_added": false,
+  "transactions_executed": [],
+  "unresolved_items": [
+    "fecha y hora de corte de las reservas",
+    "tipos de habitación y desglose de capacidad",
+    "cobertura completa del inventario; solo se usa la copia aportada",
+    "histórico y supuestos de nuevas reservas o cancelaciones para cualquier previsión distinta de confirmadas"
+  ]
+}

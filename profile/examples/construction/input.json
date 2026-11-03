@@ -1,0 +1,27 @@
+{
+  "skill": "construction-skills/skills/construction-progress-certificate/SKILL.md",
+  "request": "Prepara una propuesta de certificacion del periodo con las mediciones y precios aportados; identifica lo que necesite aclaracion.",
+  "input": {
+    "fictional": true,
+    "currency": "EUR",
+    "period": "2026-10",
+    "lines": [
+      {
+        "id": "P1",
+        "unit": "m2",
+        "previous_cumulative": 30,
+        "current_cumulative": 45,
+        "contract_unit_price": 10
+      },
+      {
+        "id": "P2",
+        "unit": "m",
+        "previous_cumulative": 12,
+        "current_cumulative": 10,
+        "contract_unit_price": 8
+      }
+    ],
+    "tax_rule": null,
+    "p2_correction_authorized": null
+  }
+}
